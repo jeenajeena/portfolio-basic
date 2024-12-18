@@ -11,6 +11,7 @@
   <!-- Header Section -->
   <header class="header">
     <div class="container">
+      <img src="images/profile.jpg" alt="Jeena Mathai" class="profile-image">
       <h1 class="main-title">Jeena Mathai</h1>
       <p class="subtitle">Senior Software Engineer | Angular & React Specialist</p>
       <p class="contact-info">
@@ -37,9 +38,13 @@
   <section id="about" class="about section">
     <div class="container">
       <h2>About Me</h2>
-      <p>
-        I am a Senior Software Engineer with over 6 years of experience in building scalable, responsive web applications using Angular, React, and modern web technologies. I thrive on delivering solutions that enhance user experiences and streamline workflows. Currently, I’m contributing to healthcare software development at QUEST GLOBAL while continuously learning and mentoring others. Open to opportunities globally, including relocation to Ulm, Ravensburg, or Bucharest, with a strong interest in Atlassian.
-      </p>
+      <div class="about-content">
+        <p>
+          I am a Senior Software Engineer with over 6 years of experience in building scalable, responsive web applications using Angular, React, and modern web technologies. 
+          I thrive on delivering solutions that enhance user experiences and streamline workflows. Currently, I’m contributing to healthcare software development at QUEST GLOBAL while continuously learning and mentoring others. 
+        </p>
+        <img src="images/about.jpg" alt="About Jeena" class="about-image">
+      </div>
     </div>
   </section>
 
@@ -61,6 +66,7 @@
         <span class="skill">Bootstrap</span>
         <span class="skill">SASS</span>
       </div>
+      <img src="images/skills.jpg" alt="Skills" class="skills-image">
     </div>
   </section>
 
@@ -68,30 +74,35 @@
   <section id="experience" class="experience section">
     <div class="container">
       <h2>Professional Experience</h2>
-      <div class="job">
-        <h3>Senior Software Engineer</h3>
-        <p class="company">QUEST GLOBAL, Technopark, Kerala (Oct 2022 – Present)</p>
-        <ul>
-          <li>Developed healthcare software applications using Angular and Edison Design System (EDS).</li>
-          <li>Streamlined development processes using Webpack and ESLint, achieving 99% test coverage with Jasmine and Karma.</li>
-          <li>Collaborated with cross-functional teams in an Agile environment and mentored junior developers.</li>
-        </ul>
-      </div>
-      <div class="job">
-        <h3>Software Engineer</h3>
-        <p class="company">ThinkPalm Technologies Pvt. Ltd., Infopark, Kerala (Sep 2020 – Sep 2022)</p>
-        <ul>
-          <li>Enhanced a B2C e-commerce platform with Angular 12 and Server-Side Rendering (SSR), reducing page load times by 40%.</li>
-          <li>Improved SEO and built dynamic forms for high-traffic scenarios.</li>
-        </ul>
-      </div>
-      <div class="job">
-        <h3>Front End Developer</h3>
-        <p class="company">Uvionics Tech India Pvt. Ltd., Infopark, Kerala (Sep 2018 – Sep 2020)</p>
-        <ul>
-          <li>Designed responsive layouts for Clifit.ai using HTML5, CSS3, and SASS, ensuring cross-browser compatibility.</li>
-          <li>Upgraded Angular applications to enhance performance and user experience.</li>
-        </ul>
+      <div class="experience-timeline">
+        <div class="job">
+          <img src="images/quest-global.png" alt="Quest Global" class="company-logo">
+          <h3>Senior Software Engineer</h3>
+          <p class="company">QUEST GLOBAL, Technopark, Kerala (Oct 2022 – Present)</p>
+          <ul>
+            <li>Developed healthcare software applications using Angular and Edison Design System (EDS).</li>
+            <li>Streamlined development processes using Webpack and ESLint, achieving 99% test coverage with Jasmine and Karma.</li>
+            <li>Collaborated with cross-functional teams in an Agile environment and mentored junior developers.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <img src="images/thinkpalm.jpg" alt="ThinkPalm Technologies" class="company-logo">
+          <h3>Software Engineer</h3>
+          <p class="company">ThinkPalm Technologies Pvt. Ltd., Infopark, Kerala (Sep 2020 – Sep 2022)</p>
+          <ul>
+            <li>Enhanced a B2C e-commerce platform with Angular 12 and Server-Side Rendering (SSR), reducing page load times by 40%.</li>
+            <li>Improved SEO and built dynamic forms for high-traffic scenarios.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <img src="images/uvionics.jpg" alt="Uvionics Tech" class="company-logo">
+          <h3>Front End Developer</h3>
+          <p class="company">Uvionics Tech India Pvt. Ltd., Infopark, Kerala (Sep 2018 – Sep 2020)</p>
+          <ul>
+            <li>Designed responsive layouts for Clifit.ai using HTML5, CSS3, and SASS, ensuring cross-browser compatibility.</li>
+            <li>Upgraded Angular applications to enhance performance and user experience.</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
@@ -102,14 +113,17 @@
       <h2>Projects</h2>
       <div class="project-grid">
         <div class="project">
+          <img src="images/healthcare-dashboard.webp" alt="Healthcare Dashboard">
           <h3>Healthcare Dashboard</h3>
           <p>Developed a user-friendly healthcare monitoring system using Angular and RxJS for real-time data visualization.</p>
         </div>
         <div class="project">
+          <img src="images/ecommerce.jpg" alt="E-commerce Platform">
           <h3>B2C E-commerce Platform</h3>
           <p>Implemented SSR and SEO enhancements using Angular 12, reducing page load times by 40%.</p>
         </div>
         <div class="project">
+          <img src="images/clifit-ai.jpg" alt="Clifit.ai">
           <h3>Clifit.ai Platform</h3>
           <p>Designed and built responsive layouts, ensuring scalability and cross-browser support with SASS and Angular.</p>
         </div>
@@ -117,30 +131,7 @@
     </div>
   </section>
 
-  <!-- Education Section -->
-  <section id="education" class="education section">
-    <div class="container">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>Bachelor of Technology in Computer Science:</strong> Cochin University of Science and Technology, 2015–2018</li>
-        <li><strong>Diploma in Computer Engineering:</strong> Government Polytechnic College, 2012–2015</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact section">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>If you’re looking for a dedicated developer to collaborate on projects or hiring opportunities, feel free to reach out!</p>
-      <p>
-        <strong>Email:</strong> <a href="mailto:jeenajeena1994@gmail.com">jeenajeena1994@gmail.com</a><br>
-        <strong>Phone:</strong> <a href="tel:+918301040859">+91 8301040859</a><br>
-        <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jeenamathai" target="_blank">linkedin.com/in/jeenamathai</a>
-      </p>
-    </div>
-  </section>
-
+  <!-- Footer Section -->
   <footer class="footer">
     <div class="container">
       <p>© 2024 Jeena Mathai | Portfolio powered by modern web technologies.</p>
