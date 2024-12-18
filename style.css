@@ -72,3 +72,100 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Circular profile image */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+  margin: 20px auto;
+  display: block;
+  border: 3px solid #f4f4f4;
+}
+
+/* About Section Image */
+.about-image {
+  width: 100%;
+  max-width: 400px; /* Set a maximum width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px; /* Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a professional look */
+}
+
+/* Skills Section Image */
+.skills-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Experience Logos */
+.company-logo {
+  width: 100px; /* Fixed width for logos */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px 0;
+  display: block;
+}
+
+/* Project Images */
+.project img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+}
+
+/* Responsive Layout */
+@media (min-width: 768px) {
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .about-content p {
+    width: 60%;
+    line-height: 1.8;
+  }
+
+  .about-image {
+    margin: 0;
+  }
+
+  .project-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .project {
+    flex: 1 1 calc(33.333% - 20px); /* Three columns */
+    box-sizing: border-box;
+  }
+}
